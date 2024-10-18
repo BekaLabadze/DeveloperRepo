@@ -22,8 +22,6 @@ class CalculatorUI: UIViewController {
     var isLightMode: Bool = true
     var colorOne = UIColor(red: 237 / 255.0, green:14 / 255.0, blue: 152 / 255.0, alpha: 1.0)
     var colorTwo = UIColor(red: 254 / 255.0, green:90 / 255.0, blue: 45 / 255.0, alpha: 1.0)
-    var currentNumber: String = ""
-    var result: Double = 0.0
     var historyTextView = UITextView()
     var historyButton = RoundedButton()
     var calculationHistory: [String] = []
